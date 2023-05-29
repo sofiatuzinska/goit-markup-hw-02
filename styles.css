@@ -15,13 +15,17 @@
 }
 
 body {
-    font-family: 'Roboto',
-        sans-serif, 'Raleway',
-            sans-serif;
+    font-family: 'Roboto', sans-serif;
+            color: #434455
+            background-color: var(--white);
+}
+
+.link {
+    text-decoration: none;
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -34,6 +38,7 @@ body {
 }
 
 .logo-item {
+    font-family: "Raleway", sans-serif
         color: var(--navy-blue);
 }
 
@@ -79,7 +84,9 @@ a:active {
         letter-spacing: 0.02em;
         color: var(--ocean);
 }
-
+address {
+    font-style: normal;
+}
 .address-list .address-list-item {
     font-family: 'Roboto';
         font-style: normal;
@@ -100,6 +107,12 @@ a:active {
         color: var(--ocean);
 }
 
+.address-list-item:hover {
+    color: #404bbf;
+}
+.address-list-item:focus {
+    color: #404bbf;
+}
 .page-header {
     font-family: 'Roboto';
         font-style: normal;
@@ -116,6 +129,7 @@ a:active {
 }
 
 .hero-button {
+    font-family: "Roboto", sans-serif;
     background-color: var(--iris);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
@@ -126,12 +140,19 @@ a:active {
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.04em;
+            border-radius: 4px;
 }
 button:hover {
     background: var(--ocean);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         color: var(--white);
+}
+button:focus {
+    background: var(--ocean);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--white);
 }
 button {
 cursor: pointer;
@@ -167,9 +188,14 @@ h2 {
         text-transform: capitalize;
         color: var(--navy-blue);
 }
-
+.section-four {
+    background-color: #F4F4FD;
+}
+.team-item {
+    background-color: #FFFFFF;
+}
 .footer-logo-item {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
