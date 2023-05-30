@@ -236,7 +236,8 @@ footer {
     background-color: var(--cloud);
     border: 1px solid #E7E9FC;
         
-        font-family: 'Roboto';
+        font-family: "Roboto",
+            sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
