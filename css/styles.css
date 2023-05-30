@@ -64,7 +64,12 @@ li {
 
     text-decoration: none;
 }
-
+.nav-list-item:hover {
+    color: #404bbf;
+}
+.nav-list-item:focus {
+    color: #404bbf;
+}
 li a {
     list-style-type: none;
     text-decoration: none;
@@ -133,8 +138,8 @@ address {
 .hero-button {
     font-family: "Roboto", sans-serif;
     background-color: var(--iris);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
+    
+        
         color: var(--white);
         font-family: 'Roboto';
             font-style: normal;
@@ -142,18 +147,18 @@ address {
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.04em;
-            border-radius: 4px;
+           
 }
 button:hover {
     background: var(--ocean);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
+        
+        
         color: var(--white);
 }
 button:focus {
     background: var(--ocean);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    
+    
     color: var(--white);
 }
 button {
@@ -226,7 +231,7 @@ footer {
 .filter-item {
     background-color: var(--cloud);
     border: 1px solid #E7E9FC;
-        border-radius: 4px;
+        
         font-family: 'Roboto';
             font-style: normal;
             font-weight: 500;
